@@ -1,0 +1,296 @@
+
+/* BARRE DE NAVIGATION */
+html,
+body{
+       margin: 0 ;
+       padding: 0;
+}
+
+header.head{
+display: flex;
+align-items: center;
+
+}
+header.head img {
+width: 200px;
+
+}
+.section.top-page{
+    
+    
+    height: 90vh;
+    padding: 30px;
+}
+.landing-page{
+    padding: 1px 10px;
+}
+ #menu
+{
+margin:auto;
+text-align:center;
+width: 95px;
+height: 30px;
+margin-bottom: 100px;
+}
+
+#menu ul
+{
+    padding: 12px 10px;
+list-style-type:none;
+text-align:center;
+height: 30px;
+margin:3px;
+display: flex;
+justify-content: space-between;
+}
+
+#menu li
+{
+float:left;
+margin:0;
+width: auto;
+
+margin:auto;
+}
+
+#menu li a
+{
+display:block;
+padding: 2px 10px;
+color:#631a33d8;
+text-decoration:none;
+font-size: 120%;
+font-family: Calibri, Verdana, serif;
+font-variant : small-caps;
+font-weight: bold;
+margin:auto;
+}
+#menu li a:hover
+{
+color:#927e8c;
+margin:auto;
+}
+
+#menu ul li ul
+{
+display: none;
+margin: auto;
+padding: 0;
+}
+
+#menu ul li ul a
+{
+font-size: 100%;
+margin:auto;
+
+}
+#menu ul li:hover ul
+{
+display:block;
+margin: 0;
+text-align:center;
+margin:auto;
+}
+
+#menu li:hover ul li
+{
+float:none;
+margin: 0;
+margin:auto;
+}
+
+#menu li ul
+{
+position:absolute;
+margin:auto;
+width: auto;
+}
+/* Carte du produit */
+.size80{
+    width: 80%;
+}
+#titre-panier{
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-family: "Allerta Stencil", sans-serif;
+}
+.trait-design-panier{
+    width: 7%;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #927e8c;
+}
+
+#basket-fiche{
+    width: 48%;
+    align-items: flex-start;
+}
+#injectJs{
+    width:60%;
+    margin-bottom: 40px;
+}
+#basketProduit{
+    width:70%;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    margin-right: 0;
+    margin-top: 30px;
+    margin-bottom: 0;
+    box-shadow: 0 2px 10px rgb(0 0 0 /16%), 0 2px 5px rgb(0 0 0 /26%);
+    padding:25px;
+}
+#blocImage{
+    width: 30%;
+}
+#blocImage > img{
+    width: 120%;
+    height: auto;
+}
+#blocProduit{
+    width: 110%;
+}
+#blocProduit >h2{
+    margin-left: 10px;
+    margin-top: -30px;
+}
+#bloc-change-produit{
+    width: 35%;
+    margin-left: 210px;
+}
+
+.bouton-moins,
+.bouton-plus{
+    border: 1px solid 5F7E5D;
+    background-color:#FFFFFFDF;
+    color:#bb85ab;
+    font-size:larger;
+    width: 20px;
+    height: 30px;
+    cursor: pointer;
+}
+.produit-quantite{
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #220118;
+    width: 50px;
+    height: 50px;
+}
+.bouton-corbeille :hover{
+    cursor:pointer;
+    color:#927e8c;
+}
+/* Partie PRIX TOTAL DES ACHATS */
+#basket-recap{
+    width:30%;
+    box-shadow: 0 2px 10px rgb(0 0 0/ 16%), 0 2px 5px rgb(0 0 0/ 26%);
+    padding: 75px;
+    margin-left: 700px;
+    margin-right: 10;
+    margin-top: -545px;
+    margin-bottom: 0;
+}
+.titre-recap {
+    font-size: xx-large;
+    font-weight: 400;
+    font-family: "Allerta Stencil", sans-serif;
+    list-style: 1.4em;
+}
+.trait-design{
+    width:80%;
+    border-bottom: 2px solid #bb85ab ;
+}
+.continuer {
+    width:80%;
+    text-decoration: none;
+    font-size:large;
+    font-weight: 400;
+    color: #bb85ab;
+    font-family: "Allerta Stencil", sans-serif;
+   padding: 150px ;
+   margin-left: 120px;
+   margin-right: 0;
+   margin-top: 0;
+   margin-bottom: 0;
+}
+
+#continueCommande{
+    text-decoration: none;
+    font-size:medium;
+    width: 50%;
+    height: 50px;
+    margin-right: 25px;
+    background-color: #FFFFFFDF;
+    color: #bb85ab;
+    border: #bb85ab;
+    cursor: pointer;
+  
+}
+#continueCommande :hover {
+    background-color: rgb(172, 111, 172);
+}
+/* FORMULAIRE */
+.flex-start{
+    display:flex;
+    display: inline-block;
+    justify-content: flex-start;
+   
+}
+h2{
+    margin-left: 100px;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.flex-column-centre{
+    text-align: center;
+
+}
+form>h2,input{
+    margin-bottom:5px;
+    margin-top: 40px ;
+}
+#adress,#mail,#tel{
+text-align:  center;
+}
+.champ {
+    width: 300px;
+    height:40px;
+    border: 1px solid #bb85ab;
+    background-color: #FFFFFFDF;
+    appearance: none;
+    min-width: 400px;
+    max-width: 400px;
+}
+
+form > div > div > label{
+    width:70px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+label{
+    cursor: default;
+}
+form > div > div > span {
+    width:300px;
+    color:#dd3f1b;
+}
+.bouton-commande{
+    appearance: none;
+    font-size: larger;
+    width: 20%;
+    height: 40px;
+    margin-left: 100px;
+    margin-right: 0;
+    margin-top: 15px;
+    margin-bottom: 0;
+    background-color:#bb85ab;
+    color:#FFFFFFDF;
+    border:#bb85ab;
+    cursor: pointer;
+    
+}
